@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Fatima! 🎉</title>
+    <title>Happy Birthday! 🎉</title>
     <style>
         /* ===== BASE STYLES ===== */
         * {
@@ -399,19 +399,19 @@
     <!-- Main Container -->
     <div class="container">
        <h1><span style="color: #ffd166; text-shadow: 0 0 10px rgba(255, 209, 102, 0.7); background: none !important; -webkit-text-fill-color: #ffd166 !important;">🎉</span> Happy Birthday! <span style="color: #ffd166; text-shadow: 0 0 10px rgba(255, 209, 102, 0.7); background: none !important; -webkit-text-fill-color: #ffd166 !important;">🎉</span></h1>
-        <div class="birthday-name" id="birthdayName">🎂 Fatima's Special Day 🎂</div>
+        <div class="birthday-name" id="birthdayName">🎂 Your Friend's Special Day 🎂</div>
         
         <!-- Birthday Header -->
         <div class="birthday-header">
-            <div class="birthday-title">IT'S FATIMA'S BIRTHDAY!</div>
+            <div class="birthday-title">IT'S YOUR BIRTHDAY!</div>
             <div class="birthday-announcement">
-                🎂 HAPPY BIRTHDAY FATIMA! 🎂
+                🎂 HAPPY BIRTHDAY FRIEND NAME! 🎂
             </div>
         </div>
 
         <!-- Personal Message -->
         <div class="message" id="personalMessage">
-            <h2>To My Beloved Fatima,</h2>
+            <h2>To My Beloved [FRIEND_NAME],</h2>
             <p>Happy Birthday to someone who makes distance feel irrelevant! Even though we're miles apart, your presence is one of the most valuable things in my life.</p>
             <p>January 1st is already a special day for the world, but it's <strong>TEN TIMES</strong> more special because it's <strong>YOUR</strong> day. I hope this year brings you everything you dream of and more.</p>
             <p>Know that I'm thinking of you and supporting you always.</p>
@@ -445,49 +445,49 @@
 
    
     <script>
-        // ===================== CONFIGURATION =====================
-        const FRIEND_NAME = "Fatima";
-        const PERSONAL_MESSAGE = `
-            <h2>To My Beloved Fatima,</h2>
-            <p>Happy Birthday to someone who makes distance feel irrelevant! Even though we're miles apart, your presence is one of the most valuable things in my life.</p>
-            <p>January 1st is already a special day for the world, but it's <strong>TEN TIMES</strong> more special because it's <strong>YOUR</strong> day. I hope this year brings you everything you dream of and more.</p>
-            <p>Know that I'm thinking of you and supporting you always.</p>
-            <div class="signature">— Hamad</div>
-        `;
-        
-        const BIRTHDAY_WISHES = [
-            {
-                title: "Endless Joy",
-                message: "May your beautiful laugh lives forever and your smiles come easily every single day."
-            },
-            {
-                title: "Adventure Time",
-                message: "To finally meeting in person, exploring together (not just genshin) and living peacefully."
-            },
-            {
-                title: "Knowledge",
-                message: "Knowledge!! Knowledge!! Knowledge!!, Discovering new strengths passions you never knew you had."
-            },
-            {
-                title: "Overwatch",
-                message: "Finally getting Overwatch inside you."
-            },
-            {
-                title: "Inner Peace",
-                message: "Calm moments and a heart that's always at ease, no matter what."
-            },
-            {
-                title: "Sweet Dreams",
-                message: "I hope every goal you have and every dream come true!"
-            },
-            {
-                title: "Beautifully Bizarre",
-                message: "May your studying be as adventuringly Bizarre and wonderful as you are! (and less death wishes on your self)."
-            }
-        ];
+       // ===================== CONFIGURATION =====================
+const FRIEND_NAME = "Your Friend";
+
+const PERSONAL_MESSAGE = `
+    <h2>Happy Birthday!</h2>
+    <p>This is a small interactive birthday experience built using HTML, CSS, and JavaScript.</p>
+    <p>Click the candles to reveal wishes and enjoy the celebration effects 🎉</p>
+    <div class="signature">— Your Name</div>
+`;
+
+const BIRTHDAY_WISHES = [
+    {
+        title: "Happiness",
+        message: "Wishing joy and positivity in the year ahead."
+    },
+    {
+        title: "Success",
+        message: "May your goals and ambitions become reality."
+    },
+    {
+        title: "Adventure",
+        message: "New experiences and unforgettable memories await."
+    },
+    {
+        title: "Peace",
+        message: "A calm mind and balanced life every day."
+    },
+    {
+        title: "Growth",
+        message: "Continuous learning and self-improvement."
+    },
+    {
+        title: "Confidence",
+        message: "Believe in yourself and your journey."
+    },
+    {
+        title: "Dreams",
+        message: "May all your dreams move closer to reality."
+    }
+];
 
         // ===================== INITIALIZATION =====================
-        document.getElementById('birthdayName').textContent = "🎂 " + FRIEND_NAME + "'s Special Day 🎂";
+        document.getElementById('birthdayName').textContent = "🎂 " + FRIEND_NAME + " Celebration 🎂";
         document.getElementById('personalMessage').innerHTML = PERSONAL_MESSAGE;
 
         // ===================== START CELEBRATION =====================
@@ -541,11 +541,11 @@
                         finalMsg.style.background = 'rgba(6, 214, 160, 0.2)';
                         finalMsg.style.borderLeftColor = '#06d6a0';
                         finalMsg.innerHTML = `
-                            <h3>I love you</h3>
-                            <p style="margin-top: 10px; font-size: 0.9rem; color: #ffd166;">
-                                You deserve everything good <3333, Happy Birthday again!
-                            </p>
-                        `;
+                                            <h3>🎉 Celebration Complete 🎉</h3>
+                                             <p style="margin-top: 10px; font-size: 0.9rem; color: #ffd166;">
+                                             Thanks for interacting with this project!
+                                             </p>
+                                             `;
                         document.getElementById('wishesContainer').appendChild(finalMsg);
                     }, 1000);
                 }
