@@ -2,6 +2,10 @@
 
 A responsive celebration website built with HTML, CSS, and JavaScript.
 
+## Preview
+
+![Birthday Website Demo](BDGIF.gif)
+
 ## Features
 
 * Interactive birthday cake with clickable candles
