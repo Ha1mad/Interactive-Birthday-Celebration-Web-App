@@ -4,7 +4,7 @@ A responsive celebration website built with HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Birthday Website Demo](BDGIF.gif)
+![Birthday Website Demo](images/BDGIF.gif)
 
 ## Features
 
