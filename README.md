@@ -1,6 +1,5 @@
 # Interactive Birthday Celebration Website
 
-A responsive celebration website built with HTML, CSS, and JavaScript.
 
 ## Preview
 
